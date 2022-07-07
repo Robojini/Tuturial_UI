@@ -37,10 +37,10 @@ local Window = Library.CreateLib("Name", "RJTheme3")
 -- Секция
 local Tab = Window:NewTab("TabName")
 
--- Имя секции
+-- Подсекция
 local Section = Tab:NewSection("Section Name")
 
--- Имя заголовка
+-- Заголовок
 Section:NewLabel("LabelText")
 
 -- Кнопка
